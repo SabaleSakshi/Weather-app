@@ -1,0 +1,84 @@
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+   
+}
+
+.main{
+    width: 90%;
+    max-width: 450px;
+    background-color: brown;
+    text-align: center;
+    margin: 100px auto 0px;
+    padding: 30px 20px 30px 20px ;
+    border-radius: 20px;
+   
+}
+.error{
+    text-align: center;
+    font-size: 30px;
+    padding: 5px;
+    display: none;
+}
+.search{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.search input{
+    border: 0;
+    outline: 0;
+    width: 85%;
+    height: 40px;
+    padding: 8px;
+    padding-left: 20px;
+    border-radius: 30px;
+}
+h2{
+    font-size: 40px;
+}
+h3{
+    font-size: 30px;
+    margin-top: 10px;
+}
+.search button{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+}
+.search button img{
+    height: 30px ;
+    width: 30px;
+}
+.details{
+    /* margin: 20px; */
+    display: flex;
+    justify-content: space-between;
+    
+}
+.col{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+}
+.col img{
+    margin-right:15px ;
+    height: 60%;
+}
+
+.weather{
+    display: none;
+}
+
+/* https://api.openweathermap.org/data/2.5/weather?q=pune&appid=e3802a59b98d4b8261bc9c18a88ac34b */
